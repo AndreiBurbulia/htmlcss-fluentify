@@ -223,7 +223,6 @@ nav a {
     width: 80%;
     height: 200px;
     margin:auto;
-    background-color: aquamarine;
     line-height: 200px;
     vertical-align: middle;
 
@@ -232,15 +231,28 @@ nav a {
 .footer_container h3{
     float: left;
     font-size: 40px;
+    position: relative;
 }
 
+.selection{
+    height: 50px;
+    width: 35%;
+    float: right;
+    line-height: 50px;
+    vertical-align: middle;
+    margin-top: 75px;
+
+    
+}
 .footer_container button{
     float: right;
-    padding: 15px 30px;
+    padding: 15px 15px;
     background-color: #7CBB02;
     color: white;
     text-transform: uppercase;
-    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid #7CBB02;
+    margin-left: 30px;
 }
 
 .footer_container select{
@@ -251,9 +263,17 @@ nav a {
     border: none;
     border-bottom: 2px solid grey;
     color: grey;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 .footer_container span{
     float: right;
+    height: 100%;
 
+}
+
+.footer_container button:last-child{
+    margin-right: 60px;
+    margin-top: 10px;
 }
