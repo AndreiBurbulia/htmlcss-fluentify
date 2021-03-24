@@ -87,9 +87,25 @@ nav a {
     padding: 10px 30px;
     border-radius: 5px;
 }
+.right_menu a:nth-child(2):hover{
+    border: 1px solid #7CBB02;
+    color: #7CBB02;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
 
 .right_menu a:nth-child(3){
     background-color: #7CBB02;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.right_menu a:nth-child(3):hover{
+    background-color: white;
+    color: #7CBB02;
+    border-color: #7CBB02;
+    font-size: 20px;
     border-radius: 5px;
     padding: 10px 20px;
 }
@@ -276,4 +292,11 @@ nav a {
 .footer_container button:last-child{
     margin-right: 60px;
     margin-top: 10px;
+}
+
+.footer_container button:hover{
+    background-color: white;
+    color: #7CBB02;
+    border: 1px solid #7CBB02;
+    font-weight: bold;
 }
