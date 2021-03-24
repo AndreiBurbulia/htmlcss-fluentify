@@ -118,6 +118,21 @@ nav a {
     margin-top: 20px;
 }
 /* ****************** Main ****************** */
+.top_container{
+    height: 150px;
+    background-color: lightgrey;
+    vertical-align: middle;
+    text-align: center;
+    padding: 30px;
+}
+.top_container h3{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.top_container p{
+    font-size: 25px;
+}
+
 
 
 /* ****************** Footer ****************** */
