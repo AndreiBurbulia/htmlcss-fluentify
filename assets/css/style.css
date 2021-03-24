@@ -25,14 +25,13 @@
     width: 100%;
 }
 .dbg footer{
-    background-color: indigo;
+    background-color: #D3D3D3;
     height: 200px;
 }
 
 
 /* ****************** Header ****************** */
 .container{
-    /* background-color: lightcoral; */
     width: 80%;
     height: 100%;
     margin: auto;
@@ -96,7 +95,6 @@ nav a {
 }
 
 .page_title{
-    /* background-color: thistle; */
     width: 50%;
     margin-top: 8%;
     height: 400px;
@@ -139,8 +137,7 @@ nav a {
 /* Middle Container */
 
 .middle_container{
-    /* height:1000px ; */
-    /* background-color: lightpink; */
+    height:100% ;
 }
 
 .riga_1{
@@ -221,3 +218,42 @@ nav a {
     color: #969696;
 }
 /* ****************** Footer ****************** */
+
+.footer_container{
+    width: 80%;
+    height: 200px;
+    margin:auto;
+    background-color: aquamarine;
+    line-height: 200px;
+    vertical-align: middle;
+
+}
+
+.footer_container h3{
+    float: left;
+    font-size: 40px;
+}
+
+.footer_container button{
+    float: right;
+    padding: 15px 30px;
+    background-color: #7CBB02;
+    color: white;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.footer_container select{
+    float: right;
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: grey;
+}
+
+.footer_container span{
+    float: right;
+
+}
