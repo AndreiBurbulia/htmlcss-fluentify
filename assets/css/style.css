@@ -23,7 +23,6 @@
 
 .dbg main{
     background-color: grey;
-    height: 800px ;
     width: 100%;
 }
 .dbg footer{
@@ -118,6 +117,8 @@ nav a {
     margin-top: 20px;
 }
 /* ****************** Main ****************** */
+
+/* Top Container */
 .top_container{
     height: 150px;
     background-color: lightgrey;
@@ -133,6 +134,52 @@ nav a {
     font-size: 25px;
 }
 
+/* Middle Container */
+
+.middle_container{
+    height:1000px ;
+    /* background-color: lightpink; */
+}
+
+.riga_1{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-color: lightpink;
+}
+
+.dimension{
+    width: 30%;
+    height: 100%;
+    background-color: lightseagreen;
+    float: left;
+    text-align: center;
+
+}
+.dimension h3{
+    font-size: 30px;
+    color: greenyellow;
+}
+.dimension hr{
+    width: 100px;
+    text-align: center;
+    margin: 30px 210px;
+    border-color: black;
+    border-top: 1px;
+}
+.dimension p{
+    font-size: 20px;
+}
+.dimension img{
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.middle_box{
+    margin: 0 5%;
+}
 
 
 /* ****************** Footer ****************** */
