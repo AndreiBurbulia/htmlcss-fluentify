@@ -22,7 +22,6 @@
 }
 
 .dbg main{
-    background-color: grey;
     width: 100%;
 }
 .dbg footer{
@@ -137,7 +136,7 @@ nav a {
 /* Middle Container */
 
 .middle_container{
-    height:1000px ;
+    /* height:1000px ; */
     /* background-color: lightpink; */
 }
 
@@ -145,13 +144,11 @@ nav a {
     width: 80%;
     height: 500px;
     margin: auto;
-    background-color: lightpink;
 }
 
 .dimension{
     width: 30%;
     height: 100%;
-    background-color: lightseagreen;
     float: left;
     text-align: center;
 
@@ -181,5 +178,40 @@ nav a {
     margin: 0 5%;
 }
 
+.middle_container > hr{
+    margin: 50px 0;
+    opacity: 0.5;
+}
 
+.riga_2{
+    width: 80%;
+    margin:auto;
+}
+
+.riga_2 img{
+    height: 650px;
+    width: 49%;
+    float: left;
+    margin-top: 20px;
+}
+
+.bottom_box{
+    display: inline-block;
+    height: 700px;
+    width: 50%;
+    float: right;
+    padding: 100px 100px;
+}
+
+.bottom_box h3{
+    width: 80%;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bottom_box p {
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+}
 /* ****************** Footer ****************** */
