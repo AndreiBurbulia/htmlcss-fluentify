@@ -143,6 +143,17 @@ nav a {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+.page_title span:hover{
+    background-color:white;
+    color: #7CBB02;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 /* ****************** Main ****************** */
 
 /* Top Container */
